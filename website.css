@@ -1,0 +1,74 @@
+html, body {
+    font-family: "Playfair Display", serif;
+}
+
+#title {
+    text-align:center;
+    background: lavender;
+    padding: 20px;
+    font-family: "Playfair Display", serif;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lavender;
+}
+
+.nav-bar li {
+    float: left;
+}
+
+.nav-bar li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-bar li a:hover {
+    background-color: #e4dcf7;
+}
+
+.nav-bar .active {
+    background-color: #cebcf7;
+}
+
+.footer-basic {
+    padding:40px 0;
+    background-color:lavender;
+    color:#4b4c4d;
+}
+
+.footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+    border: 1px solid #333;
+    border-radius: 6px;
+    color: black;
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 3px;
+    padding: 7px 12px;
+}
+
+.footer-basic .social > a:hover {
+    opacity:0.9;
+}
+
+.footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:15px;
+    color: black;
+    margin-bottom:0;
+}
+
+/* Credit to https://bootsnipp.com/snippets/X2XOv */
+
