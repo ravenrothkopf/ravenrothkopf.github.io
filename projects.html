@@ -2,33 +2,76 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Projects - Raven Rothkopf</title>
+    <title>Raven Rothkopf</title>
     <link rel="stylesheet" href="website.css">
     <script src="website.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,800;1,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 </head>
 
 <body>
 <header aria-label="header">
     <h1 id="title">Raven Rothkopf</h1>
+</header>
+
+<div class="nav-bar">
     <nav aria-label="navigation">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About Me!</a></li>
-            <li><a href="projects.html">Portfolio</a></li>
+            <li><a href="projects.html">Projects</a></li>
             <li><a href=#>Resume</a></li>
         </ul>
     </nav>
-</header>
+</div>
 
-<main aria-label="main">
-
+<main>
+    <div class="album py-5" style="background: lavender">
+        <h1 class="title">Projects & Research</h1>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" style="background-color:lavender">
+            <div class="col hov">
+                <div class="card shadow-sm">
+                    <a href="https://github.com/Barnard-PL-Labs/dynamicGrammars" target="_blank">
+                        <img class="card-img-top" width="100%" height="100%" src="TSL.png" alt="dynamic grammars structured editor">
+                    </a>
+                    <div class="card-body">
+                        <span class="card-text-tag">RESEARCH</span>
+                        <p class="card-text">Conducting novel research in reactive program synthesis for temporal logic @ Barnard College's Programming Languages Lab.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col hov">
+                <div class="card shadow-sm">
+                    <a href="plants.html">
+                        <img class="card-img-top" width="100%" height="100%" src="plants/Final%202.jpg" alt="house plant series, ink drawings">
+                    </a>
+                    <div class="card-body">
+                        <span class="card-text-tag">ART</span>
+                        <p class="card-text">House plant series: Drawn with India Ink and brush on ink block.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </main>
 
-<footer aria-label="footer">
-
-</footer>
+<div class="footer-basic">
+    <footer>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/ravenrothkopf/">
+                <i class="icon ion-social-linkedin"> LinkedIn</i>
+            </a>
+            <a href="#">
+                <i class="icon ion-social-github"> GitHub</i>
+            </a>
+        </div>
+        <p class="copyright">Raven Rothkopf © 2022</p>
+        <p class="copyright">Designed using HTML, CSS, and JavaScript </p>
+    </footer>
+    <!-- Credit to https://bootsnipp.com/snippets/X2XOv -->
+</div>
 </body>
 </html>
+
