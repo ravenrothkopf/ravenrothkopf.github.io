@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Raven Rothkopf</title>
-    <link rel="stylesheet" href="website.css">
+    <link rel="stylesheet" href="styles.css">
     <script src="website.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,17 +19,17 @@
 <div class="nav-bar">
     <nav aria-label="navigation">
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Me!</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href=#>Resume</a></li>
+            <li><a href="index.html">Home ✰</a></li>
+            <li><a href="about.html">About ♫</a></li>
+            <li><a href="projects.html" class="active">Projects ✁</a></li>
+            <li><a href=resume.html>Resume ✎</a></li>
         </ul>
     </nav>
 </div>
 
 <main>
     <div class="album py-5" style="background: lavender">
-        <h1 class="title">Projects & Research</h1>
+        <h2 class="title">Projects & Research <font face="Wingdings">:</font></h2>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" style="background-color:lavender">
             <div class="col hov">
                 <div class="card shadow-sm">
@@ -38,7 +38,7 @@
                     </a>
                     <div class="card-body">
                         <span class="card-text-tag">RESEARCH</span>
-                        <p class="card-text">Conducting novel research in reactive program synthesis for temporal logic @ Barnard College's Programming Languages Lab.</p>
+                        <p class="card-text">Conducting novel research in reactive program synthesis and temporal logic @ Barnard College's Programming Languages Lab.</p>
                     </div>
                 </div>
             </div>
@@ -57,21 +57,26 @@
     </div>
 </main>
 
-<div class="footer-basic">
-    <footer>
+<footer class="footer-basic text-center text-lg-start">
+    <!-- Copyright -->
+    <p class=text-center style="font-family: 'Eu Alonira';">thanks for stopping by.</p>
+    <p class="text-center">check me out on other platforms! ㋛</p>
+    <div class="text-center p-3">
         <div class="social">
             <a href="https://www.linkedin.com/in/ravenrothkopf/">
                 <i class="icon ion-social-linkedin"> LinkedIn</i>
             </a>
-            <a href="#">
+            <a href="https://github.com/ravenrothkopf">
                 <i class="icon ion-social-github"> GitHub</i>
             </a>
+            <a href="https://www.pinterest.com/bunnygirl188/">
+                <i class="icon ion-social-pinterest"> Pinterest</i>
+            </a>
+
         </div>
-        <p class="copyright">Raven Rothkopf © 2022</p>
-        <p class="copyright">Designed using HTML, CSS, and JavaScript </p>
-    </footer>
-    <!-- Credit to https://bootsnipp.com/snippets/X2XOv -->
-</div>
+        <p class="copyright">© Raven Rothkopf 2022</p>
+    </div>
+</footer>
 </body>
 </html>
 

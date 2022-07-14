@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Raven Rothkopf</title>
-    <link rel="stylesheet" href="website.css">
+    <link rel="stylesheet" href="styles.css">
     <script src="website.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,33 +19,69 @@
 <div class="nav-bar">
     <nav aria-label="navigation">
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Me!</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href=#>Resume</a></li>
+            <li><a href="index.html">Home ✰</a></li>
+            <li><a href="about.html" class="active">About ♫</a></li>
+            <li><a href="projects.html">Projects ✁</a></li>
+            <li><a href=resume.html>Resume ✎</a></li>
         </ul>
     </nav>
 </div>
 
-<main aria-label="main">
+<main style="background: lavenderblush">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img src="pics/reggio.jpg" alt="table with assorted desserts" class="rounded about">
+                <img src="pics/barnard.png" alt="tree outside of milbank hall on barnard's campus" class="rounded about">
+                <img src="pics/concert.png" alt="strawberry cake" class="rounded about">
+                <img src="pics/park.png" alt="park with tree, bench and lamp post overlooking river" class="rounded about">
+                <img src="pics/fit.png" alt="mannequin in long, colorful dress at exhibit" class="rounded about">
 
+            </div>
+            <div class="col-6">
+                <h2 class="title">About Me ☺ </h2>
+                <img src="pics/me.jpg" alt="selfie of woman smiling" class="rounded-circle about profile">
+                <p></p>
+                <p>I was born and raised in Chicago, Illinois! There, along with my family, I have two cats named Leo and Luna.<p>
+                <p>I am passionate about the intersection between design and accessibility in the human-computer interaction field. By accessibility, I mean anything from exploring the world of accessible user interfaces to lowering the barrier of entry to complex topics in computer science.
+                </p>
+                <p>I work as a research assistant under Dr. Mark Santolucito in Barnard’s Programming Languages Lab. The lab specializes in program synthesis, computer music, live coding, and domain-specific languages, all of which I have dabbled in and more!<p>
+                <p>During the school year, I work as a student assistant at Barnard’s Instructional Media and Technology Services (IMATS) in the Milstein.
+                At the front desk, I provide community members with free video production and photography equipment, tinker around on the Barnard Library website to improve it’s accessibility, and catch up with my coworkers about our newest media fixations.<p>
+                <p>In my free time, I love to tend to my plants, go to concerts, draw, bake <span style="font-style: italic">and</span> eat dessert, vintage shop, sit in Riverside Park, travel, and attend fashion exhibitions around the city!<p>
+
+            </div>
+            <div class="col">
+                <img src="pics/plants.jpg" alt="leafy green plants" class="rounded about">
+                <img src="pics/cake.png" alt="strawberry covered cake" class="rounded about">
+                <img src="pics/rainbow.jpg" alt="double rainbow above building" class="rounded about">
+                <img src="pics/cats.png" alt="two white and brown cats in cabinet" class="rounded about">
+                <img src="pics/forest.png" alt="two women, smiling and standing in forest" class="rounded about">
+            </div>
+        </div>
+    </div>
 </main>
 
-<div class="footer-basic">
-    <footer>
+<footer class="footer-basic text-center text-lg-start">
+    <!-- Copyright -->
+    <p class=text-center style="font-family: 'Eu Alonira';">thanks for stopping by.</p>
+    <p class="text-center">check me out on other platforms! ㋛</p>
+    <div class="text-center p-3">
         <div class="social">
             <a href="https://www.linkedin.com/in/ravenrothkopf/">
                 <i class="icon ion-social-linkedin"> LinkedIn</i>
             </a>
-            <a href="#">
+            <a href="https://github.com/ravenrothkopf">
                 <i class="icon ion-social-github"> GitHub</i>
             </a>
+            <a href="https://www.pinterest.com/bunnygirl188/">
+                <i class="icon ion-social-pinterest"> Pinterest</i>
+            </a>
+
         </div>
-        <p class="copyright">Raven Rothkopf © 2022</p>
-        <p class="copyright">Designed using HTML, CSS, and JavaScript </p>
-    </footer>
-    <!-- Credit to https://bootsnipp.com/snippets/X2XOv -->
-</div>
+        <p class="copyright">© Raven Rothkopf 2022</p>
+    </div>
+</footer>
 </body>
 </html>
 
