@@ -1,17 +1,22 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:700");
+
 html, body {
     font-family: "EB Garamond", sans-serif;
-    background: #dfedf0;
 }
 
 #title {
     text-align:center;
-    background: #dfedf0;
+    background: #ced6ed;
     padding: 20px;
     font-family: "Eu Alonira", serif;
 }
 
 .title {
-    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    background-color: #e8e8e8;
+    font-size: 3vw;
     font-family: "Eu Alonira", serif;
 }
 
@@ -26,28 +31,62 @@ html, body {
     src: url('euAlonira.ttf');
 }
 
+@font-face {
+    font-family: "SourceCode";
+    src: url('SourceCodePro.ttf');
+}
+
+.responsive {
+     max-width: 100%;
+     height: auto;
+ }
 
 /* Create two equal columns that float next to each other */
 .column-2 {
     float: left;
-    border: 10px outset;
-    width: 45%;
+    width: 50%;
     padding: 40px;
-    height: 475px;
-    margin: 30px;
-    background-color: #e6f5d5;
+    height: 75vh;
+    margin: 20px;
+    word-wrap: break-word;
+    background: white;
+    overflow: auto;
 }
 
+.column-2 > p {
+    font-size: 1.5vw;
+}
+
+.column-2 p a{
+    color: #3a3b3a;
+    border-radius: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    background-color: #e6ecff;
+    font-family: "SourceCode", sans-serif;
+    font-size: 1.42vw;
+    letter-spacing: -.5px;
+    word-spacing: -4.5px;
+    text-decoration: none;
+}
+
+.column-2 p a:hover {
+    text-decoration: underline;
+}
+
+
 .large-profile {
-    background: url("pics/headshot.jpg");
+    background: url("pics/headshot.png");
     background-size: cover;
     background-position: center;
 }
+
 
 .profile {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: auto;
     text-align: center;
 }
 
@@ -56,7 +95,7 @@ html, body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #e6f5d5;
+    background-color: white;
 }
 
 .nav-bar li {
@@ -69,19 +108,22 @@ html, body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    border:3px double #e6f5d5;
+    border:3px solid #edf2ff;
 }
 
 .nav-bar li a:hover {
-    background-color: #e4dcf7;
+    background-color: #edf2ff;
 }
 
 .nav-bar .active {
-    border: 3px double #f7ab5e;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 8px;
+    text-decoration-color: #ced6ed;
 }
 
 .footer-basic {
-    background: #dfedf0;
+    background: #ced6ed;
     padding:40px 0;
     color:#4b4c4d;
 }
@@ -94,7 +136,7 @@ html, body {
 .footer-basic .social > a {
     border: 1px solid #333;
     border-radius: 6px;
-    color: black;
+    color: #3a3b3a;
     display: inline-block;
     font-size: 14px;
     margin-bottom: 3px;
@@ -103,7 +145,7 @@ html, body {
 
 .footer-basic .social > a:hover {
     opacity:0.8;
-    border: 1px solid orange;
+    border: 1px solid #96a7d4;
 }
 
 .footer-basic .copyright {
@@ -243,7 +285,7 @@ hr:not([size]) {
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
     margin-top: 0;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0rem;
     font-weight: 500;
     line-height: 1.2;
 }
@@ -374,13 +416,6 @@ sup {
     top: -0.5em;
 }
 
-a {
-    color: #0d6efd;
-    text-decoration: underline;
-}
-a:hover {
-    color: #0a58ca;
-}
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
     color: inherit;
@@ -4702,7 +4737,7 @@ textarea.form-control-lg {
 .card-text-tag {
     font-size: 12px;
     font-style: italic;
-    background-color: lavender;
+    background-color: #e6ecff;
 }
 
 .card-link + .card-link {
