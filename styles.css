@@ -70,13 +70,32 @@ html, body {
     text-decoration: none;
 }
 
+@media (max-width: 576px) {
+    .column-2 p a {
+        font-size: 3.5vw;
+    }
+    .column-2 {
+        height: 300px;
+    }
+    .column-2 > p {
+        font-size: 3.5vw;
+    }
+    .greeting {
+        font-size:4vw;
+    }
+}
+
+.greeting {
+    font-size:3vw;
+}
+
 .column-2 p a:hover {
     text-decoration: underline;
 }
 
 
 .large-profile {
-    background: url("pics/headshot1.jpg");
+    background: url("pics/Headshot1.jpg");
     background-size: cover;
     background-position: center;
 }
