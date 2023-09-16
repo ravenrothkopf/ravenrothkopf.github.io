@@ -72,13 +72,13 @@ html, body {
 
 @media (max-width: 576px) {
     .column-2 p a {
-        font-size: 3.5vw;
+        font-size: 2.5vw;
     }
     .column-2 {
         height: 300px;
     }
     .column-2 > p {
-        font-size: 3.5vw;
+        font-size: 2.5vw;
     }
     .greeting {
         font-size:4vw;
