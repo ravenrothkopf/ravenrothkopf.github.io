@@ -10,9 +10,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,800;1,400;1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <style>
+        .card {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .card-body {
+            flex-grow: 1;
+        }
+    </style>
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
 <header aria-label="header">
     <h1 id="title">Raven Rothkopf</h1>
 </header>
@@ -27,9 +38,9 @@
     </nav>
 </div>
 
-<main style="background: #e6ecff">
+<main class="flex-grow-1" style="background: #e6ecff;">
     <h2 class="title">Projects & Research <font face="Wingdings">:</font></h2>
-    <div class="album py-5">
+    <div class="container-fluid">
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <div class="col hov">
                 <div class="card shadow-sm">
@@ -156,7 +167,7 @@
     </div>
 </main>
 
-<footer class="footer-basic text-center text-lg-start">
+<footer class="footer-basic text-center text-lg-start mt-auto">
     <!-- Copyright -->
     <p class=text-center style="font-family: 'Eu Alonira';">thanks for stopping by.</p>
     <p class="text-center">check me out on other platforms! ㋛</p>
