@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Raven Rothkopf</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles.css">
+    <script src="website.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta content='initial-scale=1.0, width=device-width' name='viewport'>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,800;1,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="title">Raven Rothkopf</h1>
+    </header>
+    <main style="background: #e8e8e8;">
+        <h3 class="py-3 font-weight-bold" style="padding:20px">Module 2: Interactive Devices Blog</h3>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LqiJ4ObK-KU?si=qswQL3oUwzXTMipt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <br>
+                <img src="game.png" alt="game screen" style="width:100%">
+                <br>
+                <br>
+                <img src="demo2.jpeg" alt="controller" style="width:100%">
+                <br>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img src="guts.png" alt="controller" style="width:100%">
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="sand.png" alt="controller" style="width:100%">
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="p-3">
+                    <h4 class="font-weight-bold">Project overview</h4>
+                    <br>
+                    <p>The goal of this project was to make an interactive art installation involving a TTGO T-Display and several input/feedback interfaces. I chose to revamp an old video game I made at the end of high school with a responsive game controller. My inspiration was restoring a game I made 5 years ago and adding to my first attempt at a programming project with the knowledge I have gained since going through college as a computer science major.</p>
+                    <p>My system allows the player to control an 8-bit Super Mario character in a Pac-Man game. The player must collect all the coins on the screen while trying to not get hit by the Goombas (ghosts) and collect 1-UPS distributed across the map to help with this mission. As the player completes levels, the Goombas get faster.</p>
+                    <p>The joystick controller button is used to click through the navigational and instructional screens of the game. Three LED lights on the controller respond to different actions during gameplay. The red LED light turns on every time the player gets hit by a Goomba, the yellow LED light every time the player collects a coin, and the green LED light every time the player gets a 1-UP.</p>
+                    <a href="https://github.com/ravenrothkopf/Creative-Embedded-Systems/tree/main/Module%202#module-2---interactive-devices">Documentation</a>
+                    <br><br>
+                    <h4 class="font-weight-bold">Artistic vision</h4>
+                    <br>
+                    <p>I wanted to create a sleek and intuitive controller for my game. I chose to 3D print the enclosure for my controller to obscure the wiring of my device, only exposing the joystick, LED lights, and USB-C port.</p>
+                    <p>My goal was for people to be able to walk up to my device and play the game on the screen without any specific instructions, thus I chose to only use a joystick as the point of interaction.</p>
+                    <p>I also wanted to send data back to the controller for a complete interaction loop, which is why I also chose to incorporate the LED feedback on the device. If I had more time, I would have also wanted to make the enclosure more ergonomic to make it more comfortable to hold by either reprinting it, or adding air-dry clay along the sides of the box to cover the sharper edges.</p>
+                    <br>
+                    <h4 class="font-weight-bold">Technical challenges</h4>
+                    <br>
+                    <p>One of the most challenging parts of this Module was getting all of my components to fit into a pretty tiny enclosure. I had to 3D print my enclosure twice even after taking precise measurements because it was too small. After the second 3D print, the enclosure was still too small by about 2mm, so I had to use a dremel sander to sand down all the screw hole walls on the inside of the enclosure to get everything to fit inside.</p>
+                    <p>An additional challenge was wiring my device on the breadboard in a way that all the components were aligned properly to fit my enclosure design. This whole experience has made me appreciate and understand why people would elect to design their own circuitry instead of just using a solderless breadboard.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    </body>
+
+    <footer class="footer-basic mt-auto">
+        <!-- Copyright -->
+        <p class=text-center style="font-family: 'Eu Alonira';">thanks for stopping by.</p>
+        <p class="copyright">© Raven Rothkopf 2022</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</html>
