@@ -8,7 +8,22 @@
   pdf={https://arxiv.org/pdf/2505.22906},
   doi={10.48550/arXiv.2505.22906},
   bibtex_show={true},
-  preview={hilde.png}
+  preview={HiLDe.png},
+  abstract={While AI programming tools hold the promise of
+increasing programmers' capabilities and productivity to a remarkable degree, they often exclude users from essential decision-making processes, causing many to effectively "turn off their
+brains" and over-rely on solutions provided by these systems.
+These behaviors can have severe consequences in critical domains,
+like software security. We propose Human-in-the-Loop Decoding,
+a novel interaction technique that allows users to observe and
+directly influence LLM decisions during code generation, in order
+to align the model's output with their personal requirements. We
+implement this technique in HiLDe, a code completion assistant
+that highlights critical decisions made by the LLM and provides
+local alternatives for the user to explore. In a within-subjects
+study (N=18) on security-related tasks, we found that HiLDe
+led participants to generate significantly fewer vulnerabilities
+and better align code generation with their goals compared to a
+traditional code completion assistant.}
 }
 
 @inproceedings{estep2024rose,
@@ -22,7 +37,19 @@
   doi={10.4230/LIPIcs.ECOOP.2024.15},
   demo={https://rosejs.dev/},
   bibtex_show={true},
-  preview={encircled-rose.png}
+  preview={encircled-rose.png},
+  code={https://github.com/rose-lang/rose},
+  abstract={Reverse-mode automatic differentiation (autodiff) has been popularized by deep learning, but its
+ability to compute gradients is also valuable for interactive use cases such as bidirectional computer-aided design, embedded physics simulations, visualizing causal inference, and more. Unfortunately,
+the web is ill-served by existing autodiff frameworks, which use autodiff strategies that perform
+poorly on dynamic scalar programs, and pull in heavy dependencies that would result in unacceptable
+webpage sizes. This work introduces Rose, a lightweight autodiff framework for the web using a
+new hybrid approach to reverse-mode autodiff, blending conventional tracing and transformation
+techniques in a way that uses the host language for metaprogramming while also allowing the
+programmer to explicitly define reusable functions that comprise a larger differentiable computation.
+We demonstrate the value of the Rose design by porting two differentiable physics simulations,
+and evaluate its performance on an optimization-based diagramming application, showing Rose
+outperforming the state-of-the-art in web-based autodiff by multiple orders of magnitude.}
 }
 
 @article{rothkopf2024procedural,
@@ -34,7 +61,9 @@
   doi={10.48550/arXiv.2402.16905},
   demo={https://barnard-pl-labs.github.io/CYOA-TSL/},
   bibtex_show={true},
-  preview={cyoatsl.png}
+  preview={cyoa.png},
+  code={https://github.com/Barnard-PL-Labs/CYOA-TSL},
+  abstract={The surge in popularity of large language models (LLMs) has opened doors for new approaches to the creation of interactive agents. However, managing and interpreting the temporal behavior of such agents over the course of a potentially infinite interaction remain challenging. The stateful, long-term horizon reasoning required for coherent agent behavior does not fit well into the LLM paradigm. We propose a combination of formal logic-based program synthesis and LLM content generation to bring guarantees of procedural adherence and interpretability to generative agent behavior. To illustrate the benefit of procedural adherence and interpretability, we use Temporal Stream Logic (TSL) to generate an automaton that enforces an interpretable, high-level temporal structure on an agent. With the automaton tracking the context of the interaction and making decisions to guide the conversation accordingly, we can drive content generation in a way that allows the LLM to focus on a shorter context window. We evaluated our approach on different tasks involved in creating an interactive agent specialized for generating choose-your-own-adventure games. We found that over all of the tasks, an automaton-enhanced agent with procedural guarantees achieves at least 96% adherence to its temporal constraints, whereas a purely LLM-based agent demonstrates as low as 14.67% adherence.}
 }
 
 @inproceedings{samdarshi-etal-2024-connecting,
@@ -58,7 +87,9 @@
     pages = "21219--21236",
     pdf={https://aclanthology.org/2024.emnlp-main.1182.pdf},
     bibtex_show={true},
-    preview={nyt.png}
+    preview={nyt.png},
+    code={https://github.com/mustafamariam/LLM-Connections-Solver},
+    abstract={The New York Times Connections game has emerged as a popular and challenging pursuit for word puzzle enthusiasts. We collect 438 Connections games to evaluate the performance of state-of-the-art large language models (LLMs) against expert and novice humanplayers. Our results show that even the best-performing LLM, Claude 3.5 Sonnet, which has otherwise shown impressive reasoning abilities on a wide variety of benchmarks, can only fully solve 18% of the games. Novice and expert players perform better than Claude 3.5 Sonnet, with expert human players significantly outperforming it. We create a taxonomy of the knowledge types required to successfully cluster and categorize words in the Connections game. We find that while LLMs are decent at categorizing words based on semantic relations they struggle with other types of knowledge such as Encyclopedic Knowledge, Multiword Expressions or knowledge that combines both Word Form and Meaning. Our results establish the New York Times Connections game as a challenging benchmark for evaluating abstract reasoning capabilities in humans and AI systems.}
 }
 
 @inproceedings{cui2024towards,
@@ -68,7 +99,8 @@
   booktitle={PLATEAU Workshop},
   doi={10.1184/R1/25587741.v1},
   bibtex_show={true},
-  preview={mismit.png}
+  preview={mismit.png},
+  abstract={Reactive program synthesis from logical specifications has yet to match the user-friendly approach of example-based programming for spreadsheets, despite its success in specific domains. A main challenge hindering the broader adoption of reactive synthesis is in the complexity of specification engineering in temporal logics. We map out challenges and tools that arise as users write temporal logic specifications in Temporal Stream Logic. Our goal is to provide a roadmap for future usability work that can elevate temporal specification engineering for synthesis to match the usability support available for software engineering. By generalizing these concepts, we can gain a deeper insight into the challenges people face when reasoning about the temporal behavior of their systems.}
 }
 
 @inproceedings{rothkopf2023rose,
@@ -80,7 +112,8 @@
   pdf={https://dl.acm.org/doi/pdf/10.1145/3618305.3623602},
   doi={https://doi.org/10.1145/3618305.3623602},
   bibtex_show={true},
-  preview={src.png}
+  preview={src.png},
+  abstract={Automatic differentiation (AD) has become the backbone for a new wave of optimization-driven domains such as computer graphics and machine learning over the past decade. However, existing AD systems face limitations, either lacking support for in-browser development or failing to harness more recent, compiler-based approaches to achieve both expressiveness and size-preserving differentiation. This work introduces Rose, a portable, extensible AD library that runs on the web. Through Rose, we aim to increase accessibility to AD and empower end-user programming in optimization-driven domains. We plan to evaluate Rose by replacing the AD engines of real-world, client-side optimization systems and assess the improvements on the computation power and expressiveness of such systems.}
 }
 
 @inproceedings{rothkopf2023towards,
@@ -92,5 +125,7 @@
   doi={10.1184/R1/22277356.v1},
   demo={https://barnard-pl-labs.github.io/tslBlocks/},
   bibtex_show={true},
-  preview={tslBlocks.png}
+  preview={tslBlocks.png},
+  code={https://github.com/Barnard-PL-Labs/tslBlocks},
+  abstract={Temporal logic specifications can be used to synthesize reactive systems by writing high-level descriptions of desired behavior, without the need to manually program a complete system. While synthesis from temporal logics has long been focused on hardware systems, recent work has expanded applications of synthesis to include areas of broader interest, such as mobile apps, visualization, and self-driving cars. These new application areas have the potential to bring new types of users into the synthesis community, but significant usability hurdles remain. In this work, we investigate how Temporal Stream Logic (TSL), a temporal logic specification language, can be made more usable and approachable to programmers of all skill levels. We propose a study design to evaluate the usefulness of an alternative interface for writing TSL to address the syntactic hurdle of temporal logic. We then outline areas for improvement and exploration in TSL and reactive synthesis as a whole.}
 }

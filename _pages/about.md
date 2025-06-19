@@ -36,4 +36,4 @@ There, I worked as a research assistant for [Mark Santolucito](https://www.marks
 In the summer of 2024, I was a visiting researcher along with Prof. Santolucito at the [CISPA Helmoltz Center for Information Security](https://cispa.de/en) in Saarbrücken, Germany.
 I also spent summer 2023 at Carnegie Mellon University's [REUSE](https://www.cmu.edu/scs/s3d/reuse/) program with [Joshua Sunshine](https://www.cs.cmu.edu/~jssunshi/).
 
-Feel free to contact me with any questions, opportunities to collab, or just to chat!
+Feel free to reach out with questions, collaboration ideas, or just to chat, especially if you're an undergrad student and want to get involved in CS research!
