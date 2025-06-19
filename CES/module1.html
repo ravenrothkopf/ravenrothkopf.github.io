@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Raven Rothkopf</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles.css">
+    <script src="website.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta content='initial-scale=1.0, width=device-width' name='viewport'>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,800;1,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="title">Raven Rothkopf</h1>
+    </header>
+    <main style="background: #e8e8e8;">
+        <h3 class="py-3 font-weight-bold" style="padding:20px">Module 1: Valentine's Day Installation Blog</h3>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LqiJ4ObK-KU?si=qswQL3oUwzXTMipt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="p-3">
+                    <h4 class="font-weight-bold">Project overview</h4>
+                    <p>This project displays alternating candy hearts with random valentine's themed messages and colors on a TTGO T-Display ESP32. The display was embedded in an envelope and suspended from the ceiling on the Barnard College Milstein Library 5th floor CSC Lounge on 2/13/2024.</p>
+                    <a href="https://github.com/ravenrothkopf/Creative-Embedded-Systems/tree/main/Module%201#module-1-generative-art-valentines-day-installation">Documentation</a>
+                    <br><br>
+                    <h4 class="font-weight-bold">Artistic vision</h4>
+                    <p>I wanted to capture the spirit of Valentine's Day with this project, and candy hearts are a quintessential symbol of Valentine's Day. I chose to randomly generate the messages and colors to invoke the generative aspect of this assignment. The heart displays every 5 seconds, then the display goes into deep sleep mode to conserve energy for 5 seconds, and then the screen turns back on with a different randomly generated heart. For practical reasons, I chose to allow the user to display the battery life of the device by pressing the green battery button in the bottom-left corner. I wanted this project to be bright, but also clear and not too busy so that it was inviting, but not overwhelming to the viewer.</p>
+                    <br>
+                    <h4 class="font-weight-bold">Technical challenges</h4>
+                    <p>The biggest technical challenge was changing the display little by little until it looked exactly how I wanted it. This meant adjusting and readjusting position of the shapes that made up the heart, the background heart, and the text over and over again. Every little change required a re-compile and re-upload to the board. I also had to figure out how to make the display go to sleep and wake up again via button press. I consulted the TTGO T-Display documentation to figure out the right pin to use for the battery button, and on what signal to detect the button press.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    </body>
+
+    <footer class="footer-basic mt-auto">
+        <!-- Copyright -->
+        <p class=text-center style="font-family: 'Eu Alonira';">thanks for stopping by.</p>
+        <p class="copyright">© Raven Rothkopf 2022</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</html>
