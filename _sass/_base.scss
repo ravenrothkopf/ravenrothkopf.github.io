@@ -20,6 +20,20 @@ strong {
   font-family: sans-serif;
 }
 
+@font-face {
+  font-family: 'Eu Alonira';
+  src: url('/assets/fonts/euAlonira.ttf');
+}
+
+h1.post-title {
+  span {
+    font-family: 'Eu Alonira', sans-serif;
+    font-size: 2rem;
+  }
+  font-family: 'Eu Alonira', sans-serif;
+  font-size: 2rem;
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }

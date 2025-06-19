@@ -9,6 +9,8 @@ profile:
   image: headshot.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
+    she/her
+    <br>
     rrothkopf@ucsd.edu
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -28,10 +30,10 @@ latest_posts:
 **Hi✿** I'm a first-year Ph.D. student at UCSD, co-advised by [Nadia Polikarpova](https://cseweb.ucsd.edu/~npolikarpova/) and [Sorin Lerner](https://cseweb.ucsd.edu/~lerner/), supported by the [NSF GRFP](https://www.nsfgrfp.org/) (2024).
 My interests lie at the intersection of formal methods, human-computer interaction, and artificial intelligence.
 
-I received my Undergraduate degree in Computer Science from [Barnard College](https://barnard.edu/) of Columbia University in 2024.
+I received my bachelor's degree in Computer Science from [Barnard College](https://barnard.edu/), Columbia University in 2024.
 There, I worked as a research assistant for [Mark Santolucito](https://www.marksantolucito.com/index.html) in Barnard's [Programming Languages Lab](https://barnard-pl-labs.github.io/).
 
-In the summer of 2024, I was a visiting researcher along with Dr. Santolucito at the [CISPA Helmoltz Center for Information Security](https://cispa.de/en) in Saarbrücken, Germany.
-I also spent a summer at Carnegie Mellon University's [REUSE](https://www.cmu.edu/scs/s3d/reuse/) program (2023) with [Joshua Sunshine](https://www.cs.cmu.edu/~jssunshi/).
+In the summer of 2024, I was a visiting researcher along with Prof. Santolucito at the [CISPA Helmoltz Center for Information Security](https://cispa.de/en) in Saarbrücken, Germany.
+I also spent summer 2023 at Carnegie Mellon University's [REUSE](https://www.cmu.edu/scs/s3d/reuse/) program with [Joshua Sunshine](https://www.cs.cmu.edu/~jssunshi/).
 
 Feel free to contact me with any questions, opportunities to collab, or just to chat!
