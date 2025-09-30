@@ -1,4 +1,6 @@
-_site
+/.idea
+.DS_Store
+/pics/.DS_Store_site
 .bundle
 .sass-cache
 .jekyll-cache

@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-**Hi✿** I'm a first-year Ph.D. student at UCSD, co-advised by [Nadia Polikarpova](https://cseweb.ucsd.edu/~npolikarpova/) and [Sorin Lerner](https://cseweb.ucsd.edu/~lerner/), supported by the [NSF GRFP](https://www.nsfgrfp.org/) (2024).
+**Hi✿** I'm a second-year Ph.D. student at UCSD, co-advised by [Nadia Polikarpova](https://cseweb.ucsd.edu/~npolikarpova/) and [Sorin Lerner](https://cseweb.ucsd.edu/~lerner/), supported by the [NSF GRFP](https://www.nsfgrfp.org/) (2024).
 My interests lie at the intersection of formal methods, human-computer interaction, and artificial intelligence.
 
 I received my bachelor's degree in Computer Science from [Barnard College](https://barnard.edu/), Columbia University in 2024.

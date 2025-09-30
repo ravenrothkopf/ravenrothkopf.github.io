@@ -1,35 +1,46 @@
 
-@article{anaya2025hilde,
-  title={HiLDe: Intentional Code Generation via Human-in-the-Loop Decoding},
-  author={Anaya Gonz{\'a}lez*, Emmanuel and Rothkopf*, Raven and Lerner, Sorin and Polikarpova, Nadia},
-  journal={arXiv e-prints},
-  pages={arXiv--2505},
-  year={2025},
-  pdf={https://arxiv.org/pdf/2505.22906},
-  doi={10.48550/arXiv.2505.22906},
+@inproceedings{anaya2025hilde,
+  title = {HiLDe: Intentional Code Generation via Human-in-the-Loop Decoding}, 
+  url = {https://par.nsf.gov/biblio/10633790}, 
+  abstract = {While AI programming tools hold the promise of increasing programmers' capabilities and productivity to a remarkable degree, they often exclude users from essential decision-making processes, causing many to effectively "turn off their brains" and over-rely on solutions provided by these systems. 
+  These behaviors can have severe consequences in critical domains, like software security. 
+  We propose Human-in-the-Loop Decoding, a novel interaction technique that allows users to observe and directly influence LLM decisions during code generation, in order to align the model's output with their personal requirements. 
+  We implement this technique in HiLDe, a code completion assistant that highlights critical decisions made by the LLM and provides local alternatives for the user to explore. 
+  In a within-subjects study (N=18) on security-related tasks, we found that HiLDe led participants to generate significantly fewer vulnerabilities and better align code generation with their goals compared to a traditional code completion assistant.}, 
+  booktitle={2025 IEEE Symposium on Visual Languages and Human-Centric Computing Proceedings (VL/HCC)},
+  year = {2025},
+  author = {Gonzalez*, Emmanuel Anaya and Rothkopf*, Raven and Lerner, Sorin and Polikarpova, Nadia}, 
+  annotation = {* indicates equal contribution},
   bibtex_show={true},
   preview={hilde1.png},
-  abstract={While AI programming tools hold the promise of
-increasing programmers' capabilities and productivity to a remarkable degree, they often exclude users from essential decision-making processes, causing many to effectively "turn off their
-brains" and over-rely on solutions provided by these systems.
-These behaviors can have severe consequences in critical domains,
-like software security. We propose Human-in-the-Loop Decoding,
-a novel interaction technique that allows users to observe and
-directly influence LLM decisions during code generation, in order
-to align the model's output with their personal requirements. We
-implement this technique in HiLDe, a code completion assistant
-that highlights critical decisions made by the LLM and provides
-local alternatives for the user to explore. In a within-subjects
-study (N=18) on security-related tasks, we found that HiLDe
-led participants to generate significantly fewer vulnerabilities
-and better align code generation with their goals compared to a
-traditional code completion assistant.}
+  award={},
+  award_name={Best Paper Award},
+  pdf={https://arxiv.org/pdf/2505.22906},
+}
+
+@inproceedings{kasibatla2025command,
+  title={The Command Line GUIde: Graphical Interfaces from Man Pages via AI},
+  author={Kasibatla*, Saketh Ram and Hiremath*, Kiran Medleri and Rothkopf, Raven and Lerner, Sorin and Xia, Haijun and Hempel, Brian},
+  booktitle={2025 IEEE Symposium on Visual Languages and Human-Centric Computing Proceedings (VL/HCC)},
+  year={2025},
+  abstract={Although birthed in the era of teletypes, the command line shell survived the graphical interface revolution of the 1980’s and lives on in modern desktop operating systems. 
+  The command line provides access to powerful functionality not otherwise exposed on the computer, but requires users to recall textual syntax and carefully scour documentation. 
+  In contrast, graphical interfaces let users organically discover and invoke possible actions through widgets and menus. 
+  To better expose the power of the command line, we demonstrate a mechanism for automatically creating graphical interfaces for command line tools by translating their documentation (in the form of man pages) into interface specifications via AI. 
+  Using these specifications, our user-facing system, called GUIDE, presents the command options to the user graphically. 
+  We evaluate the generated interfaces on a corpus of commands to show to what degree GUIDE offers thorough graphical interfaces for users’ real-world command line tasks.
+  },
+  annotation = {* indicates equal contribution},
+  bibtex_show={true},
+  award={},
+  award_name={Best Short Paper Award},
+  preview={guide.png},
 }
 
 @inproceedings{estep2024rose,
   title={Rose: Composable Autodiff for the Interactive Web},
   author={Estep, Sam and Ni, Wode and Rothkopf, Raven and Sunshine, Joshua},
-  booktitle={38th European Conference on Object-Oriented Programming (ECOOP 2024)},
+  booktitle={38th European Conference on Object-Oriented Programming (ECOOP)},
   pages={15--1},
   year={2024},
   organization={Schloss Dagstuhl--Leibniz-Zentrum f{\"u}r Informatik},
@@ -78,8 +89,7 @@ outperforming the state-of-the-art in web-based autodiff by multiple orders of m
       Bansal, Mohit  and
       Chen, Yun-Nung",
     booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
-    month = nov,
-    year = "2024",
+    year = {2024},
     address = "Miami, Florida, USA",
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2024.emnlp-main.1182/",
@@ -100,11 +110,12 @@ outperforming the state-of-the-art in web-based autodiff by multiple orders of m
   doi={10.1184/R1/25587741.v1},
   bibtex_show={true},
   preview={mismit.png},
-  abstract={Reactive program synthesis from logical specifications has yet to match the user-friendly approach of example-based programming for spreadsheets, despite its success in specific domains. A main challenge hindering the broader adoption of reactive synthesis is in the complexity of specification engineering in temporal logics. We map out challenges and tools that arise as users write temporal logic specifications in Temporal Stream Logic. Our goal is to provide a roadmap for future usability work that can elevate temporal specification engineering for synthesis to match the usability support available for software engineering. By generalizing these concepts, we can gain a deeper insight into the challenges people face when reasoning about the temporal behavior of their systems.}
+  abstract={Reactive program synthesis from logical specifications has yet to match the user-friendly approach of example-based programming for spreadsheets, despite its success in specific domains. A main challenge hindering the broader adoption of reactive synthesis is in the complexity of specification engineering in temporal logics. We map out challenges and tools that arise as users write temporal logic specifications in Temporal Stream Logic. Our goal is to provide a roadmap for future usability work that can elevate temporal specification engineering for synthesis to match the usability support available for software engineering. By generalizing these concepts, we can gain a deeper insight into the challenges people face when reasoning about the temporal behavior of their systems.},
+  annotation = {* indicates equal contribution},
 }
 
 @inproceedings{rothkopf2023rose,
-  title={Rose: Extensible Autodiff on the Web (Student Research Competition, 3rd Place)},
+  title={Rose: Extensible Autodiff on the Web (Student Research Competition)},
   author={Rothkopf, Raven},
   booktitle={Companion Proceedings of the 2023 ACM SIGPLAN International Conference on Systems, Programming, Languages, and Applications: Software for Humanity (SPLASH)},
   pages={46--48},
@@ -113,13 +124,15 @@ outperforming the state-of-the-art in web-based autodiff by multiple orders of m
   doi={https://doi.org/10.1145/3618305.3623602},
   bibtex_show={true},
   preview={src.png},
-  abstract={Automatic differentiation (AD) has become the backbone for a new wave of optimization-driven domains such as computer graphics and machine learning over the past decade. However, existing AD systems face limitations, either lacking support for in-browser development or failing to harness more recent, compiler-based approaches to achieve both expressiveness and size-preserving differentiation. This work introduces Rose, a portable, extensible AD library that runs on the web. Through Rose, we aim to increase accessibility to AD and empower end-user programming in optimization-driven domains. We plan to evaluate Rose by replacing the AD engines of real-world, client-side optimization systems and assess the improvements on the computation power and expressiveness of such systems.}
+  abstract={Automatic differentiation (AD) has become the backbone for a new wave of optimization-driven domains such as computer graphics and machine learning over the past decade. However, existing AD systems face limitations, either lacking support for in-browser development or failing to harness more recent, compiler-based approaches to achieve both expressiveness and size-preserving differentiation. This work introduces Rose, a portable, extensible AD library that runs on the web. Through Rose, we aim to increase accessibility to AD and empower end-user programming in optimization-driven domains. We plan to evaluate Rose by replacing the AD engines of real-world, client-side optimization systems and assess the improvements on the computation power and expressiveness of such systems.},
+  award={},
+  award_name={3rd Place}
 }
 
 @inproceedings{rothkopf2023towards,
   title={Towards the usability of reactive synthesis: Building blocks of temporal logic},
   author={Rothkopf, Raven and Cui, Angel Leyi and Zeng, Hannah Tongxin and Sinha, Arya and Mark, Santolucito},
-  booktitle={PLATEAU Workshop.},
+  booktitle={PLATEAU Workshop},
   year={2023},
   pdf={https://par.nsf.gov/servlets/purl/10412728},
   doi={10.1184/R1/22277356.v1},
